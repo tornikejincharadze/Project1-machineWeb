@@ -1,0 +1,288 @@
+@media (max-width: 1024px){
+.header-wrapper .logo{
+    left: 15px;
+}
+.header-wrapper .menu{
+    right: 20px;
+}
+.header-wrapper .menu .nav-exit{
+    width: 35px;
+    height: 35px;
+}
+.logo svg{
+    width: 250px;
+    height: 110px;
+}
+
+.menu{
+    width: 50px;
+    height: 40px;
+}
+
+.item ul li time{
+    font-size: 30pt;
+}
+.item ul li h1{
+    font-size: 30pt;
+    left: 58%;
+}
+.navigation-bar ul li button {
+        font-size: 30pt;
+}
+.navigation-bar {
+    line-height: 60px;
+    top: 190px;
+    left: 250px;
+}
+        /*  Section header End */
+        /*  Section services start */
+.bus{
+    bottom: -100px;
+}
+        /*Section services end */
+        /*Section contact start*/
+.map{
+    width: 100%;
+}
+.contact-wrapper .contact .contact-information{
+    display: none;
+}
+.contact{
+    width: 75%;
+    margin-top: -250px;
+}
+.contact .blank{
+    background-color: #EBE8DE;
+    align-items: center;
+}
+.contact .blank .text-input *{
+    background-color: #F4F4F4;
+}
+.contact .blank input[type="submit"]{
+    left: 190px;
+} 
+        /*Section contact End*/
+        /*Section footer Start*/
+footer{
+    margin-bottom: 20px;
+}
+        /*responsive share for start*/
+.share-for-responsive {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom:40px;
+    margin-top: 20px;
+}
+.share-for-responsive div h2 {
+    color: black;
+    font-family:RobotoCondensed-Bold;
+    text-transform: lowercase;
+    font-size: 28pt;
+}
+.share-for-responsive ul{
+    display: flex;
+}
+.share-for-responsive ul li a img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+}
+
+                                  /*    768 px  responsive */
+
+@media (max-width: 768px){
+
+.header-wrapper .logo{
+    left: 10px;
+}
+.logo svg{
+    width: 200px;
+    height: 100px;
+}
+.navigation-bar {
+    line-height: 55px;
+    top: 145px;
+    left: 190px;
+}
+.navigation-bar ul li button{
+   font-size: 25pt;
+
+}
+.owl-nav.disabled > div{
+    height: 125px;
+}
+.services .services-bar {
+    flex-wrap: wrap;
+}
+.services .services-bar div:nth-child(1){
+    margin-left: 15px;
+}
+.services .services-bar div:nth-child(3){
+    margin-right: 15px;
+}
+.bus{
+    bottom: -75px;
+}
+.contact .blank input[type="submit"]{
+    left: 50%;
+}
+.contact .blank{
+    align-items: center;
+    flex-direction: column;
+}
+.blank form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    height: 100%;
+}
+.contact .blank div h1{
+    margin-left: 0px;
+}
+.contact .blank .text-input{
+    margin-left: 0px;
+}
+.contact .blank .text-input input{
+   width: 100%;
+}
+.contact .blank .text-input textarea{
+    width: 100%;
+}
+.information-input .gender-input{
+    margin-left: 0px;
+}
+.recieve-information{
+    margin-left: 0px;
+}
+.share-for-responsive ul li a img{
+    width: 35px;
+    height: 35px;
+}
+.contact .blank input[type="submit"]{
+    left: 0px;
+    top: 0px;
+    margin-bottom: 10px;
+}
+}                          
+                        /*   620 responsive */
+                         @media (max-width: 620px){
+.logo svg{
+    width: 180px;
+    height: 80px;
+}
+.navigation-bar {
+    line-height: 45px;
+    top: 120px;
+    left: 150px;
+}
+.navigation-bar ul li button{
+   font-size: 20pt;
+}
+.owl-nav.disabled > div{
+    height: 115px;
+}
+.services .heading {
+    letter-spacing: 5px;
+}
+.services .services-bar div:nth-child(2){
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.services .services-bar div:nth-child(1){
+    margin-left: 0px;
+}
+.services .services-bar div:nth-child(3){
+    margin-right: 0px;
+}
+}
+                        /* 565 responsive */
+                        @media (max-width: 565px){
+    .services .services-bar div:nth-child(2){
+    margin-right: 0px;
+    margin-left: 0px;
+}
+}
+                         /* 480 responsive */
+                        @media (max-width: 480px){
+.logo svg{
+    width: 160px;
+    height: 60px;
+}
+.navigation-bar {
+    line-height: 35px;
+    top: 90px;
+    left: 120px;
+}
+.navigation-bar ul li button{
+   font-size: 15pt;
+}
+.owl-nav.disabled > div{
+    height: 110px;
+    width: 60px;
+}
+.item ul li time{
+    font-size: 20pt;
+    top: 81%;
+    left: 82%;
+}
+.item ul li h1{
+    font-size: 20pt;
+    left: 40%;
+}
+.trees{
+    bottom: 5px;
+}
+.trees img{
+    width: 100%;
+}
+.contact .blank div h1{
+    font-size: 15pt;
+    letter-spacing: 5px;
+}
+.share-for-responsive div h2{
+    font-size: 15pt;
+
+}
+.footer-wrapper{
+    font-size: 12pt;
+}
+}
+                        /*   320 responsive */
+                         @media (max-width: 320px){
+.header-wrapper .logo{
+    top: 10px;
+    left: 5px;
+}
+.logo svg{
+    width: 130px;
+    height: 50px;
+}
+.navigation-bar {
+    line-height: 20px;
+    top: 70px;
+    left: 80px;
+}
+.navigation-bar ul li button{
+   font-size: 10pt;
+}
+.header-wrapper .menu .nav-exit img{
+    width: 25px;
+    height: 25px;
+}
+.owl-nav.disabled > div{
+    height: 80px;
+    width: 50px;
+}
+.bus{
+    bottom: -28px;
+}
+.footer-wrapper{
+    font-size: 8pt;
+}
+}
